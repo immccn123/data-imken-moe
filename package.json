@@ -1,0 +1,20 @@
+{
+  "name": "data.imken.moe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build.mjs",
+    "deploy": "arc deploy",
+    "deploy:prod": "arc deploy --production"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@architect/architect": "^11.0.7",
+    "esbuild": "^0.20.2"
+  }
+}
