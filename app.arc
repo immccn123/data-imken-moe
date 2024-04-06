@@ -7,3 +7,4 @@ region us-west-2
 @static
 folder ./public
 compression br
+prune true
