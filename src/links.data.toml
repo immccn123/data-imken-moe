@@ -74,3 +74,9 @@ name = "Sooooooooooooooooootheby"
 url = "https://blog.sooooooooooooooooootheby.top/"
 description = "去码头整点薯条"
 avatar = "https://blog.sooooooooooooooooootheby.top/logo_small.webp"
+
+[[item]]
+name = "flash"
+url = "https://blog.rbkou.me"
+description = "苔花如米小，也学牡丹开。"
+avatar = "https://blog.rbkou.me/assets/img/avarta.png"
