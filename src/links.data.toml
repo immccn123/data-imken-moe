@@ -80,3 +80,9 @@ name = "flash"
 url = "https://blog.rbkou.me"
 description = "苔花如米小，也学牡丹开。"
 avatar = "https://blog.rbkou.me/assets/img/avarta.png"
+
+[[item]]
+name = "smallfang"
+url = "https://blog.smallfang.fun/"
+description = "睡觉选手"
+avatar = "http://cdn.rotriw.com/smallfang/avatar.png"
