@@ -1,22 +1,20 @@
-import esbuild from "esbuild";
+await import("./transform.js");
 
-await import("./transform.mjs");
-await esbuild.build({
+await Bun.build({
   outdir: "public",
-  entryPoints: [".temp/**/*.js"],
-  bundle: true,
+  entrypoints: [...new Bun.Glob(".temp/**/*.js").scanSync({ dot: true })],
   minify: true,
-  platform: "browser",
+  target: "browser",
   format: "esm",
-  charset: "utf8",
 });
+
 import fs from "fs";
 import path from "path";
 
 const srcDir = "./.temp";
 const outDir = "./public";
 
-async function copyJsonFiles(srcDir, outDir) {
+async function copyJsonFiles(srcDir: string, outDir: string) {
   const files = await fs.promises.readdir(srcDir);
 
   for (const file of files) {

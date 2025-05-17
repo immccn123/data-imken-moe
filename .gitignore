@@ -2,4 +2,8 @@ node_modules/
 public/
 sam.yaml
 sam.json
-.temp
+.temp*
+
+types/*.schema.js
+src/*.check.js
+scripts/*.js

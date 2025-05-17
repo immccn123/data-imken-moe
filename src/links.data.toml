@@ -1,7 +1,7 @@
 # 友情链接的数据文件
 
+[meta]
 type = "list"
-item-name = "item"
 
 [[item]]
 name = "Rickyxrc"

@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./scripts/build.mjs",
+    "build": "bun ./scripts/preprocess.mjs && bun ./.temp-build/scripts/build.js",
     "deploy": "arc deploy",
-    "deploy:prod": "arc deploy --production"
+    "deploy:prod": "arc deploy --production",
+    "prepare": "ts-patch install"
   },
   "keywords": [],
   "type": "module",
@@ -15,7 +16,15 @@
   "license": "ISC",
   "devDependencies": {
     "@architect/architect": "^11.0.7",
+    "@ryoppippi/unplugin-typia": "^2.6.2",
     "esbuild": "^0.20.2",
-    "js-toml": "^1.0.0"
+    "js-toml": "^1.0.0",
+    "ts-patch": "^3.3.0",
+    "tsx": "^4.19.4",
+    "typescript": "~5.8.3"
+  },
+  "dependencies": {
+    "@types/bun": "^1.2.13",
+    "typia": "^9.3.0"
   }
 }
