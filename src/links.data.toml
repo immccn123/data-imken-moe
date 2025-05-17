@@ -86,3 +86,9 @@ name = "smallfang"
 url = "https://blog.smallfang.fun/"
 description = "睡觉选手"
 avatar = "http://cdn.rotriw.com/smallfang/avatar.png"
+
+[[item]]
+name = "xzy の 未知屋"
+url = "https://xzy404.me"
+description = "简介又不是格言，我哪知道塞什么东西放这"
+avatar = "https://cdn.luogu.com.cn/upload/usericon/1062508.png"
