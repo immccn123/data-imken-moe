@@ -1,15 +1,5 @@
 # data-imken-moe
 
-To install dependencies:
+访问 https://shared.imken.moe 了解有关这个仓库是干什么的。
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+本仓库采用 https://blog.imken.moe/archives/753 提到的方法对存储桶里的文件进行持续集成。
