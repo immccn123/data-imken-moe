@@ -86,3 +86,9 @@ name = "smallfang"
 url = "https://blog.smallfang.fun/"
 description = "睡觉选手"
 avatar = "http://cdn.rotriw.com/smallfang/avatar.png"
+
+[[item]]
+name = "Modern Blog"
+url = "https://blog.andyjin.website"
+description = "分享技术，记录生活"
+avatar = "https://filestorage0.oss-cn-hongkong.aliyuncs.com/avatar.png"
